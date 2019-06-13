@@ -6,8 +6,8 @@ import {Link} from 'react-router-dom';
 function App() {
   return (
     <div className="demo-big-content">
-    <Layout fixedHeader>
-        <Header title={<span><span style={{ color: '#ddd' }}>Area / </span><strong>The Title</strong></span>}>
+    <Layout >
+        <Header className="header-color" title={<span><span style={{ color: '#ddd' }}>Area / </span><strong>The Title</strong></span>}>
             <Navigation>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/contact">Contact Me</Link>
